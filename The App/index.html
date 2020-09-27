@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="budget-title">
+        <h3>
+          Available budget in
+          <span class="budget__title--month">%Month%</span> 2020
+        </h3>
+        <div class="the-budget"></div>
+        <div class="budget-income-sum">
+          <span>INCOME</span>
+          <div class="budget-total-inc"></div>
+        </div>
+        <div class="budget-expenses-sum">
+          <span>Expenses</span>
+          <div class="budget-total-exp"></div>
+        </div>
+      </div>
+      <div id="budget-add-values">
+        <select id="minusPlus">
+          <option value="inc">+</option>
+          <option value="exp">-</option>
+        </select>
+
+        <input
+          type="text"
+          placeholder="Add description"
+          class="budget-add-descrtiption"
+        />
+        <input type="number" placeholder="Value" id="budget-add-number" />
+        <button type="submit" class="budget-submit">
+          <i class="fa fa-check-circle fa-2x"></i>
+        </button>
+      </div>
+<div class="list-container">
+      <div id="budget-income">
+        <h2>INCOME </i></h2>
+        <div class="budget-income-field-list">
+          <!--
+          <div class="item clearfix" id="income-0">
+            <div class="item-description">Salary</div>
+            <div class="right clearfix">
+              <div class="item-value">+2,100.00</div>
+              <div class="item-percentage">21%</div>
+              <div class="item-delete">
+                <button class="item-delete-button">
+                 <i class="fa fa-times-circle">
+                </button>
+              </div>
+            </div>
+          </div>
+
+          -->
+        </div>
+      </div>
+      <div id="budget-expenses">
+        <h2>EXPENSES</h2>
+        <div class="budget-expenses-field-list">
+            <!--
+          <div class="item clearfix" id="expense-0">
+            <div class="item-description">Salary</div>
+            <div class="right clearfix">
+              <div class="item-value">+2,100.00</div>
+              <div class="item-delete">
+                <button class="item-delete-button">
+                 <i class="fa fa-times-circle">
+                </button>
+              </div>
+            </div>
+          </div>
+
+          -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <script src="script.js"></script>
+  </body>
+</html>

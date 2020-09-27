@@ -1,0 +1,19 @@
+{
+  "folders": [
+    {
+      "name": "testing",
+      "path": "..\\..\\testing2\\testing"
+    },
+    {
+      "path": "D:\\[Emil]Programming\\Practicing my matematic"
+    },
+    {
+      "name": "practicing_my_Math",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "liveServer.settings.port": 5501,
+    "liveServer.settings.multiRootWorkspaceName": "Practicing my matematic"
+  }
+}

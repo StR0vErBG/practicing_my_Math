@@ -1,0 +1,83 @@
+body {
+  padding: 0;
+
+  /* background-image: url(https://www.metoffice.gov.uk/binaries/content/gallery/metofficegovuk/hero-images/advice/maps-satellite-images/satellite-image-of-globe.jpg); */
+  background-image: url(../photos/First-bg.jpg);
+  background-size: cover, contain;
+
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: color;
+  font-family: courier, arial, helvetica;
+}
+#container {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  height: 50%;
+  width: 30%;
+  border-radius: 2px 100px 100px 100px;
+  opacity: 90%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+}
+.fa-arrow-left {
+  margin: 10px;
+  color: red;
+  text-decoration: none;
+}
+div .top-side h1 {
+  position: relative;
+  top: -110px;
+  left: 50px;
+  /* color: rgb(250, 198, 179);  */
+  font-size: 80px;
+}
+.top-side {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 10%;
+  left: -10px;
+  /* border: 2px solid green;
+  background-color: green;
+  opacity: 100%; */
+}
+.test {
+  font-size: 30px;
+  position: relative;
+  left: 15%;
+  top: -140px;
+}
+.answer {
+  font-size: 25px;
+  color: red;
+}
+.test input {
+  height: 50px;
+  width: 300px;
+  text-align: center;
+  font-size: 25px;
+  border: 2px solid green;
+  border-radius: 20px;
+}
+.test input:focus {
+  border: none;
+}
+#container .time {
+  margin-left: 20px;
+}
+.correct {
+  margin-top: 50px;
+  color: green;
+  position: relative;
+  top: 10px;
+}
+.test button {
+  width: 100px;
+  height: 65px;
+  font-size: 25px;
+}

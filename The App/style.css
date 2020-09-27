@@ -1,0 +1,64 @@
+/* 
+background: url("SomeMountain")
+
+Background Text - Available Budget in September 2016:
+      + || - numbers(The budget) 
+
+Income background - green; Text-black; Numbers- +white
+The logic is to sum all the income and add it to this field
+
+Expenses background- red; Black- text; Numbers- -white
+The logic is to sum all the expenses and add it to this field 
+
+FOR INCOME || EXPENSES BACKGROUND color- grey; button if (+) go for income else(-) go for expenses; Text Field For the income or expenses; Number field for the money; Check button to add values in the down menu
+
+
+Background color - white; Text - black{
+
+Income Bar - color: green; the income is seperated with </br> and </hr>; Text color is black and income is (+) green
+
+Expenses Bar - color red; the expenses is seperated with </br> and </hr>; Text color is black and expenses are (-) red
+}
+
+*/
+* {
+  padding: 0;
+  margin: 0;
+}
+button {
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+#budget-add-to {
+  width: 100px;
+}
+/* .fa-times-circle {
+  visibility: hidden;
+}
+.fa-times-circle:hover {
+  visibility: visible;
+} */
+
+.item {
+  border-top: 1px dotted grey;
+  border-bottom: 1px dotted grey;
+
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+.item:hover {
+}
+.item::before {
+}
+.item::after {
+}
+.list-container {
+  display: grid;
+  grid-column-gap: 50px;
+  grid-template-columns: auto auto auto;
+
+  padding: 10px;
+}
