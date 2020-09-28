@@ -33,7 +33,7 @@ var UIcontroller = (function () {
       data.score += 1;
       DOMinputs.scoreField.textContent = data.score;
     } else {
-      DOMinputs.answerField.innerHTML = `Your answer was incorrect <br> The correct answer was <span style="color:black">"${data.result}" </span>`;
+      DOMinputs.answerField.innerHTML = `<span class="wrong"> Your answer was incorrect <br> The correct answer was <span style="color:black">"${data.result}" </span></span>`;
       data.score -= 1;
       DOMinputs.scoreField.textContent = data.score;
     }
