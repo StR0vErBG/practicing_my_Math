@@ -28,34 +28,45 @@
     ></script>
     <link href="../../styles/bootstrap.css" rel="stylesheet" />
     <!-- BOOTSTRAP END -->
+    <!-- FontAwesome start-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <!-- FontAwesome end -->
     <title>Document</title>
   </head>
   <body>
     <div id="container" class="container">
       <a href="../../index.html">
-        <i class="fas fa-arrow-left hvr-icon-back .hvr-icon fa-2x"></i
+        <i class="fa fa-arrow-left hvr-icon-back .hvr-icon fa-2x"></i
       ></a>
       <!-- STILL IN TEST
       <span class="time">TIME: <span id="time">10s</span></span>
       -->
       <div class="top-side text-center">
-        <h1 class="h1">Division</h1>
+        <h1>Division</h1>
         <div class="test">
           <p class="text-muted">
             Your question: <span class="question"> </span>
           </p>
-          <input
-            type="number"
-            placeholder="Write your answer"
-            id="input-field"
-          />
-          <button
-            type="submit"
-            id="submit-button"
-            class="btn-primary btn h2 lightBlue get-Started-btn"
-          >
-            Submit
-          </button>
+          <div id="testing">
+            <input
+              type="number"
+              placeholder="Write your answer"
+              id="input-field"
+              class="form-control"
+            />
+            <button
+              type="submit"
+              id="submit-button"
+              class="btn-primary btn h2 lightBlue get-Started-btn"
+            >
+              Submit
+            </button>
+          </div>
           <div class="answer"></div>
           <p class="score">Your score: <span id="score"></span></p>
         </div>
