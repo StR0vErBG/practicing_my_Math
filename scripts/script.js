@@ -18,7 +18,7 @@ var UIcontroller = (function () {
     result: 0,
     score: 0,
   };
-  g;
+
   DOMinputs.scoreField.textContent = data.score;
   //Button on click !Start
   DOMinputs.button.addEventListener("click", btnOnClick);

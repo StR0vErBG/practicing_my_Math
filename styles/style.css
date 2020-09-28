@@ -3,14 +3,14 @@
   padding: 0;
 }
 body {
-  margin-top: 350px;
+  position: relative;
+  top: 20vw;
   padding: 0;
 
   /* background-image: url(https://www.metoffice.gov.uk/binaries/content/gallery/metofficegovuk/hero-images/advice/maps-satellite-images/satellite-image-of-globe.jpg); */
   background-image: url(../photos/First-bg.jpg);
   background-size: cover, contain;
 
-  background-repeat: no-repeat;
   background-color: rgba(0, 0, 0, 0.6);
   background-blend-mode: color;
   font-family: courier, arial, helvetica;
@@ -18,8 +18,8 @@ body {
 
 #container {
   text-align: center;
-  margin-top: 300px;
 }
+
 #heading h1 {
   font-size: 60px;
   color: rgb(47, 246, 47);
@@ -29,20 +29,27 @@ body {
   font-size: 30px;
   color: rgb(10, 218, 255);
 }
+#menu {
+  position: relative;
+  left: -7vw;
+}
 #menu ul {
   list-style-type: none;
+  position: relative;
+  top: 20px;
   display: flex;
-  margin-top: 50px;
   margin-left: 22%;
   padding: 0;
 }
 #menu ul li {
   margin: 0 1%;
+  word-wrap: break-word;
 }
 
 #menu ul li a {
   text-decoration: none;
-  font-size: 30px;
+  font-size: 40px;
+  /* font-size: 2vw; */
   color: rgb(241, 241, 241);
   font-weight: bold;
 }
