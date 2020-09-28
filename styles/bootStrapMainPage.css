@@ -36,7 +36,4 @@ body {
   font-weight: bold;
 }
 @media screen and (max-width: 767.98px) {
-  #container {
-    font-size: px;
-  }
 }
