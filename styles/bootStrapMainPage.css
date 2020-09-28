@@ -42,17 +42,13 @@ body {
   #heading {
     margin-bottom: 20px;
   }
-  i {
-    font-size: 30px;
-    color: #906b52;
-  }
+
   hr {
     margin: 0;
     margin-bottom: 5px;
     padding: 0;
-    border: 0;
-    width: 96%;
-    background-color: grey;
+    color: white;
+    border-color: #eeeeee;
     height: 1px;
   }
 }
