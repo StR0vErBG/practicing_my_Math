@@ -48,11 +48,14 @@ body {
 
   hr {
     margin: 0;
-    margin-left: 25%;
-    width: 50%;
+    margin-left: 40%;
+    width: 25%;
     padding: 0;
     color: white;
     border-color: #eeeeee;
     height: 1px;
+  }
+  #menu ul li {
+    font-size: 18px;
   }
 }
