@@ -34,5 +34,6 @@ body {
   #container {
     position: absolute;
     top: 25%;
+    margin: 100px;
   }
 }
