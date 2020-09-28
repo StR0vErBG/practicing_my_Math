@@ -10,13 +10,11 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  max-width: 75%;
   text-align: center;
 }
 
 #heading h1 {
   color: rgb(47, 246, 47);
-  font-size: 1rem;
 }
 #heading p {
   color: rgb(10, 218, 255);
@@ -27,17 +25,17 @@ body {
 
 #menu ul li a {
   text-decoration: none;
-
   color: rgb(255, 255, 255);
   font-weight: bold;
 }
+
 /*  Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
-  #container {
+  /* #container {
     font-size: 1rem;
   }
   #heading h1 {
     color: rgb(47, 246, 47);
     font-size: 1rem;
-  }
+  } */
 }
