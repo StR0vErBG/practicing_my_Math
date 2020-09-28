@@ -1,10 +1,12 @@
+* {
+  overflow: hidden;
+}
 body {
   background-image: url(../photos/First-bg.jpg);
   background-size: cover, contain;
 
   background-color: rgba(0, 0, 0, 0.6);
   background-blend-mode: color;
-  overflow: hidden;
 }
 .wrong {
   color: red;
@@ -51,7 +53,7 @@ label:focus,
 
 /* MEDIA QUERIES */
 /* Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {
+@media screen and (max-width: 767.98px) {
   #container {
     max-width: 100%;
     max-height: 100%;
@@ -101,5 +103,6 @@ label:focus,
     position: absolute;
     left: 100%;
     height: 100px;
+    overflow: show;
   }
 }
