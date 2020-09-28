@@ -1,3 +1,6 @@
+* {
+  overflow: hidden;
+}
 body {
   background-image: url(../photos/First-bg.jpg);
   background-size: cover, contain;
@@ -34,6 +37,5 @@ body {
   #container {
     position: absolute;
     top: 25%;
-    margin: 100px;
   }
 }
