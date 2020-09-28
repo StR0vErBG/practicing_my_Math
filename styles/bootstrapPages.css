@@ -50,8 +50,8 @@ label:focus,
 }
 
 /* MEDIA QUERIES */
-/* small devices ( portrait phones, less than 576px */
-@media (min-width: 300px) {
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
   #container {
     max-width: 100%;
     max-height: 100%;
