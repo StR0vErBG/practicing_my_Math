@@ -73,6 +73,9 @@ label:focus,
 }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  * {
+    overflow: visible;
+  }
   #container {
     max-width: 75%;
     height: 600px;
@@ -101,8 +104,7 @@ label:focus,
   }
   #submit-button {
     position: absolute;
-    left: 100%;
+    left: 95%;
     height: 100px;
-    overflow: show;
   }
 }
