@@ -51,7 +51,7 @@ label:focus,
 
 /* MEDIA QUERIES */
 /* small devices ( portrait phones, less than 576px */
-@media (max-width: 575.98px) {
+@media (min-width: 300px) {
   #container {
     max-width: 100%;
     max-height: 100%;
