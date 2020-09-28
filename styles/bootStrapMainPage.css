@@ -33,7 +33,7 @@ body {
 @media (max-width: 991.98px) {
   #container {
     position: absolute;
-    top: 25%;
+    top: 50%;
   }
 
   #heading h1 {
@@ -48,7 +48,8 @@ body {
 
   hr {
     margin: 0;
-    margin-bottom: 5px;
+    margin-left: 25%;
+    width: 50%;
     padding: 0;
     color: white;
     border-color: #eeeeee;
